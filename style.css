@@ -83,7 +83,7 @@ svg {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: clamp(0rem, 2vw,2rem);
 }
 
 .nav__link {
